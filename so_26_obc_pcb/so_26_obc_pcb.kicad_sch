@@ -2,8 +2,14 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 19e03f49-67e8-4e0c-a53b-de9e8097c0a8)
+	(uuid "19e03f49-67e8-4e0c-a53b-de9e8097c0a8")
 	(paper "A4")
+	(title_block
+		(title "so_26_obc_pcb")
+		(date "2026-01-28")
+		(rev "1")
+		(company "Regine Angermo Birkely")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
