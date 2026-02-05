@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "so_26_obc_footprint_library")(type "KiCad")(uri "${KIPRJMOD}/so_26_obc_library/so_26_obc_footprint_library.pretty")(options "")(descr ""))
+)
