@@ -1,4 +1,4 @@
-26720698742294011
+26722470405590705
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106351,6 +106351,13 @@ LGA NoLead
 14
 14
 so_26_obc_footprint_library
+MEM2067-02-180-00-A
+
+
+0
+12
+8
+so_26_obc_footprint_library
 MPRLS0025PA00002A
 
 
@@ -106370,4 +106377,4 @@ TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (se
 SSOP 0.65
 0
 8
-2
+4

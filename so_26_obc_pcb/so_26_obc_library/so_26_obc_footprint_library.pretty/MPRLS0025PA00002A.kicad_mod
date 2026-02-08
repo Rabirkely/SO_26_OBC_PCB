@@ -169,16 +169,6 @@
 		(uuid "1a59bf3f-ba9a-4e2f-bd23-23b82bce5b91")
 	)
 	(group ""
-		(uuid "464d3ed3-9175-46dc-90d3-ca90b4cf1094")
-		(members "8e0e66e9-1862-4d04-881e-310ea64098b1" "f562f923-e3a6-45e1-bfcd-71e8721237f8")
-	)
-	(group ""
-		(uuid "8e0e66e9-1862-4d04-881e-310ea64098b1")
-		(members "31420e33-4236-4a9c-9f41-d24909305965" "496508bc-e4f9-4eab-84d5-973d34984916"
-			"6f11a204-3154-480d-a6b9-01ee411a953b"
-		)
-	)
-	(group ""
 		(uuid "496508bc-e4f9-4eab-84d5-973d34984916")
 		(members "1a59bf3f-ba9a-4e2f-bd23-23b82bce5b91" "1daffbca-9322-48b7-b07a-f68720d5f97e"
 			"495c2e54-bddf-40ed-896b-7859f041821c"
@@ -191,20 +181,10 @@
 		)
 	)
 	(group ""
-		(uuid "6f11a204-3154-480d-a6b9-01ee411a953b")
-		(members "07181293-cedc-484b-964c-160b7869cc69" "1758c505-5768-4adc-a5a4-4e3a840352d8"
-			"664511af-1f68-4b1a-b8ce-0c3124387379"
-		)
-	)
-	(group ""
 		(uuid "b7c95cbc-1970-4910-883a-66001d128ed0")
 		(members "0f0cce62-4f94-4333-868e-1fcedbe372c3" "40fff69e-df8c-4a62-9f41-d8733034205e"
 			"9ca110ad-f162-4b9b-9512-e47c1a6298a1"
 		)
-	)
-	(group ""
-		(uuid "f562f923-e3a6-45e1-bfcd-71e8721237f8")
-		(members "523ddcb7-d711-4620-a065-2d6f82d7216a" "b7c95cbc-1970-4910-883a-66001d128ed0")
 	)
 	(embedded_fonts no)
 )
