@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.55,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,52 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|69862500|86565000|df12f76c-ba04-4f2b-8878-a78ee852f228|c2d683d8-443d-4af9-b029-3fdb6ab8f0ea",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|70162500|86040000|f8ccb7b1-e329-4d83-b7c7-29f745727029|df12f76c-ba04-4f2b-8878-a78ee852f228",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|70162500|87565000|80e5d90e-1878-4a9a-b0ea-123a85045a5a|acf21dd6-3209-4815-ba89-c003e39aae5d",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|70337500|88365000|acf21dd6-3209-4815-ba89-c003e39aae5d|dd47870d-d17e-47c3-b7be-8b87e48a8788",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|70662500|86040000|c0b54c85-0ab6-477f-abfd-34ed9f1ccd36|f8ccb7b1-e329-4d83-b7c7-29f745727029",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|70837500|88365000|dd47870d-d17e-47c3-b7be-8b87e48a8788|38fbe583-fcd4-414b-9acb-3a009d611971",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|71337500|88365000|38fbe583-fcd4-414b-9acb-3a009d611971|478ed880-b460-4e71-b98f-6e9724b4a9b9",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|71687500|86040000|03c52f84-3912-4d73-9fa7-5ddd7562a451|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
-          "Capability of the manufacturer is 0.09 mm"
-        ],
-        [
-          "clearance|71687500|86890000|583e3024-3c11-4a00-977b-ea0d8a6dab29|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|71687500|87390000|fd8455e8-10c3-41d1-a197-4990c306f718|583e3024-3c11-4a00-977b-ea0d8a6dab29",
-          "Capability of manufacturer is 0.09 mm."
-        ],
-        [
-          "clearance|71837500|87915000|478ed880-b460-4e71-b98f-6e9724b4a9b9|fd8455e8-10c3-41d1-a197-4990c306f718",
-          "Capability of manufacturer is 0.09 mm."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -271,7 +226,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.5,
           "drill": 0.3
         },
         {

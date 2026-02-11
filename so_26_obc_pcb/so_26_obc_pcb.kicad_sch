@@ -16844,16 +16844,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 185.42) (xy 85.09 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60399c77-3da2-4953-9077-731c5c2c0d2e")
-	)
-	(wire
-		(pts
 			(xy 205.74 96.52) (xy 204.47 96.52)
 		)
 		(stroke
@@ -17041,16 +17031,6 @@
 			(type default)
 		)
 		(uuid "6ea7055f-fbff-419a-93b4-fed1836bfdef")
-	)
-	(wire
-		(pts
-			(xy 85.09 185.42) (xy 86.36 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec39cf8-5344-48b2-8c32-dfdd899d7f13")
 	)
 	(wire
 		(pts
@@ -20066,6 +20046,76 @@
 			(project "so_26_obc_pcb"
 				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 91.44 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ac1a29c-db63-4c23-be20-5c60e27eb8c5")
+		(property "Reference" "J10"
+			(at 93.98 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 93.98 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 91.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79a666b6-7794-4483-9ec8-d9632e26f5ee")
+		)
+		(pin "1"
+			(uuid "1686f6f3-4362-4487-b792-4c67918dab61")
+		)
+		(instances
+			(project "so_26_obc_pcb"
+				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -24051,71 +24101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 85.09 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93f64235-811e-42b5-b5c3-f446a6f0aa90")
-		(property "Reference" "#PWR021"
-			(at 85.09 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 84.582 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5fce5e6-51be-436c-bec7-0279d2411730")
-		)
-		(instances
-			(project "so_26_obc_pcb"
-				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 171.45 96.52 90)
 		(unit 1)
@@ -24178,80 +24163,6 @@
 			(project "so_26_obc_pcb"
 				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 91.44 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a8d937c-a281-4521-b359-2e405dfbd9d0")
-		(property "Reference" "J6"
-			(at 93.98 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 93.98 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 91.44 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c41fac2-4d8b-4919-89e6-29de1d10c4b4")
-		)
-		(pin "3"
-			(uuid "51d6a7bf-36c0-43b0-a929-92c497487953")
-		)
-		(pin "2"
-			(uuid "e6e66850-1d9a-4e44-9a21-135384836e4d")
-		)
-		(instances
-			(project "so_26_obc_pcb"
-				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
-					(reference "J6")
 					(unit 1)
 				)
 			)
