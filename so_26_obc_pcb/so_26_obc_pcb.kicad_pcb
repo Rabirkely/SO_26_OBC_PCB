@@ -13040,7 +13040,7 @@
 	)
 	(gr_text "MPRLS0025"
 		(at 72.764 125.833 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "16e0badb-492f-4129-b420-7d5b1f98a94a")
 		(effects
 			(font
@@ -13160,7 +13160,7 @@
 	)
 	(gr_text "+3V3"
 		(at 78.352 60.809 90)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "6639eddf-ce89-4c00-82fd-85b649a3b252")
 		(effects
 			(font
@@ -13256,7 +13256,7 @@
 	)
 	(gr_text "UART-RS232"
 		(at 114.166 72.62 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "a7398409-2b87-4912-9c72-356787d54b37")
 		(effects
 			(font
@@ -13267,8 +13267,8 @@
 		)
 	)
 	(gr_text "PCT 2075"
-		(at 81.146 109.577 90)
-		(layer "F.SilkS")
+		(at 72.002 109.9072 0)
+		(layer "F.SilkS" knockout)
 		(uuid "c320f847-7857-47a6-8641-75e038e16567")
 		(effects
 			(font
@@ -13292,7 +13292,7 @@
 	)
 	(gr_text "LSM6DS3"
 		(at 68.954 84.2024 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "d1fe50b8-c036-4990-ba79-86b0e8bc5e5b")
 		(effects
 			(font
