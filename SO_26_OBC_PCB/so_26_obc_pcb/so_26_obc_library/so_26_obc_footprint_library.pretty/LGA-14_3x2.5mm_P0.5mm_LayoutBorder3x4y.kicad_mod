@@ -1,0 +1,209 @@
+(footprint "LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "30254efa-62ab-456b-91f4-bdd7bfd50502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "17277817-dfaf-466c-97c1-eec11451c2b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910a9246-b4d9-4255-826b-1366d16dd035")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e40bc67c-f567-4297-b9bc-493b96b8e8b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -8.34 4.54) (xy -8.525909 4.284374) (xy -8.15409 4.284374)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3545f808-1eae-4724-86d1-2909cef90660")
+	)
+	(fp_rect
+		(start -8.709746 4.409244)
+		(end -5.519746 7.089244)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "60335db7-4081-48ea-b883-2cab2bab48c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d99167b6-ae7c-4d31-afae-e31a6f774ad3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -8.23 5.02)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90cfab42-2256-456e-9e4e-a56a491da5f3")
+	)
+	(pad "2" smd rect
+		(at -8.23 5.52)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d17e8ee-ae5c-4435-9851-c1d85ed9d3ff")
+	)
+	(pad "3" smd rect
+		(at -8.23 6.02)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65d501a2-c8e9-471d-ad0d-0e8f67747d16")
+	)
+	(pad "4" smd rect
+		(at -8.23 6.52)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a73e34c-5d4a-4fa4-a11a-8bf53f738557")
+	)
+	(pad "5" smd rect
+		(at -7.605 6.645 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e71bd42-a3d2-485f-9a21-5156abd8bb59")
+	)
+	(pad "6" smd rect
+		(at -7.105 6.645 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "566af051-00a9-41e7-a12b-c3de26c40e36")
+	)
+	(pad "7" smd rect
+		(at -6.605 6.645 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79dcd4e2-3900-4249-8bcf-27fa529003cd")
+	)
+	(pad "8" smd rect
+		(at -5.98 6.52)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "778c1a7e-3d0e-43c8-abe7-926d1a9f5126")
+	)
+	(pad "9" smd rect
+		(at -5.98 6.02)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08671e48-9d6b-4865-9420-8ad6cfd9d1f3")
+	)
+	(pad "10" smd rect
+		(at -5.98 5.52)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9162907d-ea8b-4803-a022-b316d659fe81")
+	)
+	(pad "11" smd rect
+		(at -5.98 5.02)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70cda98a-5181-43dd-bffd-538e13a53855")
+	)
+	(pad "12" smd rect
+		(at -6.605 4.895 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12176e87-c031-4477-be3f-1197f41678cd")
+	)
+	(pad "13" smd rect
+		(at -7.105 4.895 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5b17d3e3-9a3e-412b-84ca-0da155df94f4")
+	)
+	(pad "14" smd rect
+		(at -7.605 4.895 90)
+		(size 0.55 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b31a1581-c76e-40bf-85e6-d8b16b70a6e1")
+	)
+	(group ""
+		(uuid "8e9f1d3f-19a4-40b6-ab50-263b7c681cab")
+		(members "3d17e8ee-ae5c-4435-9851-c1d85ed9d3ff" "5a73e34c-5d4a-4fa4-a11a-8bf53f738557"
+			"65d501a2-c8e9-471d-ad0d-0e8f67747d16" "90cfab42-2256-456e-9e4e-a56a491da5f3"
+		)
+	)
+	(group ""
+		(uuid "b0f828d6-4846-4127-b7af-8cb187e9255a")
+		(members "12176e87-c031-4477-be3f-1197f41678cd" "5b17d3e3-9a3e-412b-84ca-0da155df94f4"
+			"b31a1581-c76e-40bf-85e6-d8b16b70a6e1"
+		)
+	)
+	(group ""
+		(uuid "d959ab28-faae-4660-8293-f18b7e67f632")
+		(members "566af051-00a9-41e7-a12b-c3de26c40e36" "79dcd4e2-3900-4249-8bcf-27fa529003cd"
+			"9e71bd42-a3d2-485f-9a21-5156abd8bb59"
+		)
+	)
+	(group ""
+		(uuid "fe09022f-6eae-45d3-95f1-abfe6daccc9b")
+		(members "08671e48-9d6b-4865-9420-8ad6cfd9d1f3" "70cda98a-5181-43dd-bffd-538e13a53855"
+			"778c1a7e-3d0e-43c8-abe7-926d1a9f5126" "9162907d-ea8b-4803-a022-b316d659fe81"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

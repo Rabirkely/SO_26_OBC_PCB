@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Temp_symbol_library")(type "KiCad")(uri "C:/Users/Bruker/OneDrive - NTNU/NTNU/Orbit/Datablader/Temp_symbol_library.kicad_sym")(options "")(descr ""))
+  (lib (name "MPRLS0025PA00002A Trykk library")(type "KiCad")(uri "C:/Users/Bruker/OneDrive - NTNU/NTNU/Orbit/MPRLS0025PA00002A Trykk library.kicad_sym")(options "")(descr ""))
+  (lib (name "LSM6DS3 Gyroskop library")(type "KiCad")(uri "C:/Users/Bruker/OneDrive - NTNU/NTNU/Orbit/LSM6DS3 Gyroskop library.kicad_sym")(options "")(descr ""))
+  (lib (name "so_26_obc_library")(type "KiCad")(uri "${KIPRJMOD}/so_26_obc_library/so_26_obc_library.kicad_sym")(options "")(descr ""))
+)
