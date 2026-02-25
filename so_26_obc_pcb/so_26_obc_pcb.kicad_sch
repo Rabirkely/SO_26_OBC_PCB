@@ -15914,7 +15914,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 177.8) (xy 138.43 176.53)
+			(xy 138.43 175.26) (xy 138.43 173.99)
 		)
 		(stroke
 			(width 0)
@@ -16104,7 +16104,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 179.07) (xy 156.21 179.07)
+			(xy 140.97 176.53) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
@@ -16424,7 +16424,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 185.42) (xy 156.21 185.42)
+			(xy 148.59 187.96) (xy 156.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -16454,7 +16454,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 190.5) (xy 156.21 190.5)
+			(xy 148.59 193.04) (xy 156.21 193.04)
 		)
 		(stroke
 			(width 0)
@@ -16864,7 +16864,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 173.99) (xy 156.21 173.99)
+			(xy 140.97 171.45) (xy 156.21 171.45)
 		)
 		(stroke
 			(width 0)
@@ -16954,7 +16954,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 187.96) (xy 156.21 187.96)
+			(xy 146.05 190.5) (xy 156.21 190.5)
 		)
 		(stroke
 			(width 0)
@@ -17554,7 +17554,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 189.23) (xy 146.05 187.96)
+			(xy 146.05 190.5) (xy 146.05 191.77)
 		)
 		(stroke
 			(width 0)
@@ -17711,6 +17711,16 @@
 			(type default)
 		)
 		(uuid "b81fde27-3dbb-44a7-9b65-062fea90778c")
+	)
+	(wire
+		(pts
+			(xy 154.94 185.42) (xy 156.21 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b967e480-d1a5-44cc-9603-4db7ad8734db")
 	)
 	(wire
 		(pts
@@ -17891,6 +17901,16 @@
 			(type default)
 		)
 		(uuid "c78659ec-eb73-47a8-8d38-fa8f5fe7265b")
+	)
+	(wire
+		(pts
+			(xy 154.94 184.15) (xy 154.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95db822-1659-4432-be4c-0e3cff302ab1")
 	)
 	(wire
 		(pts
@@ -18244,7 +18264,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 176.53) (xy 156.21 176.53)
+			(xy 138.43 173.99) (xy 156.21 173.99)
 		)
 		(stroke
 			(width 0)
@@ -18497,7 +18517,7 @@
 		)
 	)
 	(label "RADIO_UART_RX"
-		(at 140.97 173.99 0)
+		(at 140.97 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18507,7 +18527,7 @@
 		)
 		(uuid "23209b15-8bed-4564-abb7-6f9c4618384c")
 		(property "Netclass" ""
-			(at 140.97 175.26 0)
+			(at 140.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18746,7 +18766,7 @@
 		)
 	)
 	(label "RADIO_UART_TX"
-		(at 140.97 179.07 0)
+		(at 140.97 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18756,7 +18776,7 @@
 		)
 		(uuid "687ca004-ebd3-4875-8ac3-eb8f5d7aa0c2")
 		(property "Netclass" ""
-			(at 140.97 180.34 0)
+			(at 140.97 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18777,7 +18797,7 @@
 		(uuid "6d9fae1a-f8b1-4d0e-9472-8a4c114783d2")
 	)
 	(label "I2C_SDA"
-		(at 148.59 185.42 0)
+		(at 148.59 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18963,7 +18983,7 @@
 		(uuid "b481c10f-2b8f-4368-b718-7786cc814274")
 	)
 	(label "I2C_SCL"
-		(at 148.59 190.5 0)
+		(at 148.59 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19742,6 +19762,82 @@
 			(project "so_26_obc_pcb"
 				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 161.29 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e9740e2-4296-4fbd-beae-75e454948dec")
+		(property "Reference" "J10"
+			(at 163.83 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 163.83 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a37767ec-9d8f-4de2-9a32-dd22d9b2bd33")
+		)
+		(pin "3"
+			(uuid "8f48bedf-2bed-4c51-9cbd-e706d4166f4c")
+		)
+		(pin "4"
+			(uuid "3ae4c8c2-60a4-424b-ab8b-3a179dfc5eaa")
+		)
+		(pin "1"
+			(uuid "afbaa048-c46b-48c1-8dda-6db97ed7c38f")
+		)
+		(instances
+			(project ""
+				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -20618,7 +20714,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 177.8 0)
+		(at 138.43 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20627,7 +20723,7 @@
 		(fields_autoplaced yes)
 		(uuid "2304c8b3-7f9e-4d55-805b-dd2f9c8c5921")
 		(property "Reference" "#PWR022"
-			(at 138.43 184.15 0)
+			(at 138.43 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +20732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 182.88 0)
+			(at 138.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20644,7 +20740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 177.8 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20653,7 +20749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 177.8 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20662,7 +20758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 177.8 0)
+			(at 138.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21370,7 +21466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 189.23 0)
+		(at 146.05 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21379,7 +21475,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6b37ac-7c10-440a-a14d-17ffb10bfd18")
 		(property "Reference" "#PWR023"
-			(at 146.05 195.58 0)
+			(at 146.05 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21388,7 +21484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 194.31 0)
+			(at 146.05 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21396,7 +21492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 189.23 0)
+			(at 146.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21405,7 +21501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 189.23 0)
+			(at 146.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21414,7 +21510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 189.23 0)
+			(at 146.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22564,7 +22660,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 161.29 176.53 0)
+		(at 161.29 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22573,7 +22669,7 @@
 		(fields_autoplaced yes)
 		(uuid "614ddc34-938f-4dc0-8815-7e3a34e4337a")
 		(property "Reference" "J8"
-			(at 163.83 175.2599 0)
+			(at 163.83 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22582,7 +22678,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 163.83 177.7999 0)
+			(at 163.83 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22592,7 +22688,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 161.29 176.53 0)
+			(at 161.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22601,7 +22697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 176.53 0)
+			(at 161.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22610,7 +22706,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 176.53 0)
+			(at 161.29 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23543,80 +23639,6 @@
 			(project "so_26_obc_pcb"
 				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 161.29 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81892f13-1e92-4b5d-9ba8-f3364f189942")
-		(property "Reference" "J9"
-			(at 163.83 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 163.83 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 161.29 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e08e7025-7caa-422e-bbd6-a596445eb5c2")
-		)
-		(pin "3"
-			(uuid "c657617b-b330-4ec2-b1bb-665ecac0c21c")
-		)
-		(pin "2"
-			(uuid "0813d6ca-c28f-475f-81fa-4312a2fdfc20")
-		)
-		(instances
-			(project "so_26_obc_pcb"
-				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -25778,6 +25800,71 @@
 			(project "so_26_obc_pcb"
 				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e88b1eb9-6ad8-4b18-8f78-bda626bcdd65")
+		(property "Reference" "#PWR048"
+			(at 154.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90292c75-79ba-4872-a2bf-fd8ec1ab9e4d")
+		)
+		(instances
+			(project "so_26_obc_pcb"
+				(path "/19e03f49-67e8-4e0c-a53b-de9e8097c0a8"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
