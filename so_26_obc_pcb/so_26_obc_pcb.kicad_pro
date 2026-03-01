@@ -60,6 +60,50 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|72570599|92455300|acf21dd6-3209-4815-ba89-c003e39aae5d|dd47870d-d17e-47c3-b7be-8b87e48a8788",
+          ""
+        ],
+        [
+          "clearance|72570600|92955300|dd47870d-d17e-47c3-b7be-8b87e48a8788|38fbe583-fcd4-414b-9acb-3a009d611971",
+          ""
+        ],
+        [
+          "clearance|72570600|93455300|38fbe583-fcd4-414b-9acb-3a009d611971|478ed880-b460-4e71-b98f-6e9724b4a9b9",
+          ""
+        ],
+        [
+          "clearance|73020599|93955300|478ed880-b460-4e71-b98f-6e9724b4a9b9|fd8455e8-10c3-41d1-a197-4990c306f718",
+          ""
+        ],
+        [
+          "clearance|73370601|92280300|80e5d90e-1878-4a9a-b0ea-123a85045a5a|acf21dd6-3209-4815-ba89-c003e39aae5d",
+          ""
+        ],
+        [
+          "clearance|73545601|93805300|fd8455e8-10c3-41d1-a197-4990c306f718|583e3024-3c11-4a00-977b-ea0d8a6dab29",
+          ""
+        ],
+        [
+          "clearance|74045600|93805300|583e3024-3c11-4a00-977b-ea0d8a6dab29|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
+          ""
+        ],
+        [
+          "clearance|74370599|91980300|df12f76c-ba04-4f2b-8878-a78ee852f228|c2d683d8-443d-4af9-b029-3fdb6ab8f0ea",
+          ""
+        ],
+        [
+          "clearance|74895601|92280300|f8ccb7b1-e329-4d83-b7c7-29f745727029|df12f76c-ba04-4f2b-8878-a78ee852f228",
+          ""
+        ],
+        [
+          "clearance|74895601|92780300|c0b54c85-0ab6-477f-abfd-34ed9f1ccd36|f8ccb7b1-e329-4d83-b7c7-29f745727029",
+          ""
+        ],
+        [
+          "clearance|74895601|93805300|03c52f84-3912-4d73-9fa7-5ddd7562a451|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
+          "Meets manufacturers minimum clearance width specs."
+        ],
+        [
           "lib_footprint_mismatch|105158224|92708065|38220adf-2fb7-46c0-9322-5b7301a3d40a|00000000-0000-0000-0000-000000000000",
           "Only irrelevant differences (text etc.)."
         ],
@@ -188,15 +232,15 @@
           "Only irrelevant differences (text etc.)."
         ],
         [
-          "lib_footprint_mismatch|74923000|136621500|40da30be-5fd0-4164-a9aa-7cef6c55b78f|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
+          "lib_footprint_mismatch|74421400|134227500|40da30be-5fd0-4164-a9aa-7cef6c55b78f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|77037600|134250000|a088d225-345b-4b47-b745-2092ac3919a0|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "lib_footprint_mismatch|77261261|120436421|58f03c0b-69dc-4c69-b51a-e1a63a54c3c1|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
-        ],
-        [
-          "lib_footprint_mismatch|77539200|136644000|a088d225-345b-4b47-b745-2092ac3919a0|00000000-0000-0000-0000-000000000000",
           "Only irrelevant differences (text etc.)."
         ],
         [
@@ -204,20 +248,20 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|80155400|136621500|866c7a28-8a26-45cd-8a3a-012e565dfdce|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
+          "lib_footprint_mismatch|79653800|134227500|866c7a28-8a26-45cd-8a3a-012e565dfdce|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|82771600|136644000|2b9156e8-af65-412f-9bcb-bbb686f40588|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
+          "lib_footprint_mismatch|82270000|134250000|2b9156e8-af65-412f-9bcb-bbb686f40588|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|85387800|136621500|82c52ad1-ffec-4d47-97b2-4cc2dc904c54|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
+          "lib_footprint_mismatch|84886200|134227500|82c52ad1-ffec-4d47-97b2-4cc2dc904c54|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
-          "lib_footprint_mismatch|88004000|136644000|6005911b-83c2-490c-9de3-9cc0c07f0dc4|00000000-0000-0000-0000-000000000000",
-          "Only irrelevant differences (text etc.)."
+          "lib_footprint_mismatch|87502400|134250000|6005911b-83c2-490c-9de3-9cc0c07f0dc4|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "lib_footprint_mismatch|89784999|49540000|83d54adc-2b78-4284-a232-0b102fd09ba1|00000000-0000-0000-0000-000000000000",
@@ -440,7 +484,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1104900|800100|1eac7396-f591-4cb8-93ec-0fbff4f61686|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|2413000|901700|adfaa98e-ee05-4509-9717-36b0563420c0|7d07e750-239d-46cb-86f3-ba23a8c7547a|/19e03f49-67e8-4e0c-a53b-de9e8097c0a8|/19e03f49-67e8-4e0c-a53b-de9e8097c0a8|/19e03f49-67e8-4e0c-a53b-de9e8097c0a8",
+        "Done on purpose"
+      ]
+    ],
     "meta": {
       "version": 0
     },
