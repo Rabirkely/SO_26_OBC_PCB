@@ -60,50 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|72570599|92455300|acf21dd6-3209-4815-ba89-c003e39aae5d|dd47870d-d17e-47c3-b7be-8b87e48a8788",
-          ""
-        ],
-        [
-          "clearance|72570600|92955300|dd47870d-d17e-47c3-b7be-8b87e48a8788|38fbe583-fcd4-414b-9acb-3a009d611971",
-          ""
-        ],
-        [
-          "clearance|72570600|93455300|38fbe583-fcd4-414b-9acb-3a009d611971|478ed880-b460-4e71-b98f-6e9724b4a9b9",
-          ""
-        ],
-        [
-          "clearance|73020599|93955300|478ed880-b460-4e71-b98f-6e9724b4a9b9|fd8455e8-10c3-41d1-a197-4990c306f718",
-          ""
-        ],
-        [
-          "clearance|73370601|92280300|80e5d90e-1878-4a9a-b0ea-123a85045a5a|acf21dd6-3209-4815-ba89-c003e39aae5d",
-          ""
-        ],
-        [
-          "clearance|73545601|93805300|fd8455e8-10c3-41d1-a197-4990c306f718|583e3024-3c11-4a00-977b-ea0d8a6dab29",
-          ""
-        ],
-        [
-          "clearance|74045600|93805300|583e3024-3c11-4a00-977b-ea0d8a6dab29|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
-          ""
-        ],
-        [
-          "clearance|74370599|91980300|df12f76c-ba04-4f2b-8878-a78ee852f228|c2d683d8-443d-4af9-b029-3fdb6ab8f0ea",
-          ""
-        ],
-        [
-          "clearance|74895601|92280300|f8ccb7b1-e329-4d83-b7c7-29f745727029|df12f76c-ba04-4f2b-8878-a78ee852f228",
-          ""
-        ],
-        [
-          "clearance|74895601|92780300|c0b54c85-0ab6-477f-abfd-34ed9f1ccd36|f8ccb7b1-e329-4d83-b7c7-29f745727029",
-          ""
-        ],
-        [
-          "clearance|74895601|93805300|03c52f84-3912-4d73-9fa7-5ddd7562a451|c4a9f972-c8cd-4497-92bf-2f46f2df35ad",
-          "Manufacturers clearance width is smaller."
-        ],
-        [
           "lib_footprint_mismatch|105158224|92708065|38220adf-2fb7-46c0-9322-5b7301a3d40a|00000000-0000-0000-0000-000000000000",
           "Only irrelevant differences (text etc.)."
         ],
