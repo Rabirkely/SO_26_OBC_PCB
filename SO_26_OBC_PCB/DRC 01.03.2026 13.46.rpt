@@ -1,0 +1,50 @@
+** Drc report for so_26_obc_pcb.kicad_pcb **
+** Created on 2026-03-01T13:46:58+0100 **
+
+** Found 11 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(141.1700 mm, 85.2500 mm): Segment on Edge.Cuts
+    @(149.1418 mm, 95.1752 mm): PCB text 'DEBUG_UART_TX' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(146.1700 mm, 81.2500 mm): Segment on Edge.Cuts
+    @(137.3030 mm, 64.8850 mm): PCB text 'RADIO_UART_RX' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(141.1700 mm, 85.2500 mm): Segment on Edge.Cuts
+    @(149.6498 mm, 89.7142 mm): PCB text 'DEBUG_UART_RX' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.2880 mm, 91.5430 mm): PCB text 'LSM6DS3' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(98.3896 mm, 78.2883 mm): Reference field of C5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(96.9885 mm, 78.5264 mm): Reference field of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.3493 mm, 80.2001 mm): Reference field of U2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(98.3896 mm, 78.2883 mm): Reference field of C5
+    @(97.7052 mm, 77.3615 mm): Segment of R7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.3697 mm, 79.6020 mm): Segment of C11 on F.Silkscreen
+    @(127.3493 mm, 80.2001 mm): Reference field of U2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(68.7508 mm, 94.7180 mm): PCB text 'SDA' on F.Silkscreen
+    @(70.7016 mm, 93.2687 mm): Reference field of U5
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(68.2936 mm, 125.5282 mm): PCB text 'MPRLS0025' on F.Silkscreen
+    @(73.9303 mm, 124.2039 mm): Reference field of U4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
